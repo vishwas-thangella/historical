@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.consave > div > .bi{
+    background-color: palevioletred;
+    border: none;
+    padding: 0px;
+    border-radius:0px;
+    font-size: 16px;
+}
+.consave > div >p{
+    margin-top: 14px;
+}
+.consave > div:hover{
+    border:1px solid palevioletred;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.consave > div:hover .bi{
+    background-color: white;
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
+.bi-arrow-right-short{
+    border: 0px;
+    background-color: transparent;
+}
+.port-child{
+    border: 1px solid grey;
+    width: 400px;
+}
+.port-par{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgCon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap:wrap;
+    justify-content: center;
+    overflow: scroll;
+}
+.form-control:focus {
+    border-color: gray !important;
+    box-shadow: 0 0 0 0.2rem gray !important;
+}
+
+@media only screen and (min-width:750px) and (max-width:950px){
+    .imgCon{
+        height: 300px;
+    }
+}
+
+.port-child > p{
+    padding: 10px;
+}
+
+.port-child > h5{
+    margin-top: 10px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+}
